@@ -1,23 +1,22 @@
-# HexFlow-Launcher
-A 3d coverflow like launcher for PS Vita.
+# F**kDaBubbles
+A WIP mod of HexFlow-Launcher for PS Vita.
 <p><img src="/Media/screen_02.jpg" width="800" title="screen-01"></p>
 <p>Display and launch your games and homebrews in style.<br /><strong>HexFlow Launcher</strong> features a 3d user interface to display your games with their box art and supports many customization options like custom covers and backgrounds.</p>
 <p>Launching a game/app from <strong>HexFlow Launcher</strong> will close the launcher automaticaly without asking.</p>
-<h2>Custom Covers</h2>
-<p>Place your custom covers in "<em>ux0:/data/HexFlow/COVERS/PSVITA/</em>"</p>
-<p>Cover images must be in <strong>png</strong> format and file name must match the <strong>App ID</strong> or the <strong>App Name</strong> of each app (recomended resolution 256x256px). <a href="https://live.staticflickr.com/7176/6885249717_738e8ee187_n.jpg" target="_blank" rel="noopener">Sample image</a></p>
-<h3>Download Covers and Backgrounds</h3>
-<p>From v0.3 covers can be downloaded automatically from the settings menu (Start button). You can also download covers and backgrounds manually from the link below. A big thanks to <b>astuermer</b> for his contribution.</p>
-<p><a href="https://github.com/andiweli/hexflow-covers" target="_blank" rel="noopener">https://github.com/andiweli/hexflow-covers</a></p>
+<h2>AI Disclosure</h2>
+<p>I know f**kall about LUA, so I prompted Claude to assist and reviewed/tested the changes.</p>
+<p>Once the programming side is finished, I will do all modifications like border images myself from scratch, without any AI assistance.</p>
 <h3>Custom Background</h3>
-<p>Place your <strong>Background.png</strong> or <strong>Background.jpg</strong> image in "<em>ux0:/data/HexFlow/</em>" (recomended resolution 1280x720px or less). Some custom backgrounds are available <a href="https://github.com/andiweli/hexflow-covers/tree/main/Backgrounds">HERE</a></p>
+<p>This is currently a WIP modification to replicate the PS4 ribbons, albeit crudely. I very likely will not rely on AI for this approach if the current dirty implementation fails</p>
+<p>Currently, this modification is assigned to a new view of number 5 instead of overwriting existing ones. Once the final changes are made for release, this will be stripped to ONLY support the PS4 style theme.</p>
 <h3>Custom Music</h3>
 <p>Place your  <strong>Music.mp3</strong> file in "<em>ux0:data/HexFlow/</em>" (music will play automaticaly when the "Sounds" option is enabled)</p>
+<p>By default, I will bundle a recording of the default PS4 BGM, as is intended for this modification</p>
 <p>&nbsp;</p>
 <h2>AutoBoot</h2>
-<p>If you want to auto-launch <strong>HexFlow Launcher</strong> every time your PS Vita boots up you can use the <a href="https://vitadb.rinnegatamante.it/#/info/261" target="_blank" rel="noopener"><strong>AutoBoot</strong></a> plugin by Rinnegatamante.</p>
+<p>I <strong>STRONGLY</strong> advise against doing this for now.</p>
+<p>If you <strong>STILL</strong> want to auto-launch <strong>HexFlow Launcher</strong> every time your PS Vita boots up you can use the <a href="https://vitadb.rinnegatamante.it/#/info/261" target="_blank" rel="noopener"><strong>AutoBoot</strong></a> plugin by Rinnegatamante.</p>
 <p>&nbsp;</p>
-<p><img src="/Media/screen_01.jpg" width="800" title="screen-01"></p>
 <h2>Controls</h2>
 <p>Navigate your library using the <strong>DPad</strong> or the <strong>Left Stick</strong> or with the <strong>Touch Screen</strong>.</p>
 <p><strong>R/L triggers</strong>: Skip 5 items</p>
@@ -32,7 +31,8 @@ A 3d coverflow like launcher for PS Vita.
 <p>For PSX2PSP, game folder name must match with the GameID. For example "ux0:pspemu/PSP/GAME/<strong>SLES01234</strong>".</p>
 <p><strong>Subfolders and psp categories plugin are not supported</strong>.</p>
 <h1>Downloads</h1>
-<p>Grab the latest version from the Releases page <a href="https://github.com/VitaHEX-Games/HexFlow-Launcher/releases">HERE</a></p>
+<p>Mod download is currently unavailable while in early stages</p>
+<p>Grab the latest official version from the Releases page <a href="https://github.com/VitaHEX-Games/HexFlow-Launcher/releases">HERE</a></p>
 <p>&nbsp;</p>
 <h3>Credits</h3>
 <p>Programming/UI: <strong>Sakis RG</strong></p>
@@ -49,7 +49,8 @@ A 3d coverflow like launcher for PS Vita.
 <p>Swedish - @Spoxnus86</p>
 <p>&nbsp;</p>
 <h2>Support</h2>
-<p>If you want to support my work you can become a <a href="https://www.patreon.com/vitahex">Patron</a>.</p>
-<p>PayPal option is also available <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=RM8ECMVYMTXGJ&amp;source=url">HERE</a></p>
+<p>I will <strong>NEVER</strong> ask for donations or charge for any of my releases, ESPECIALLY anything I have touched using any form of AI. Contributions/bugfixes towards anything I do are more than enough.</p>
+<p>If you want to support VitaHex for their amazing work, you can become a <a href="https://www.patreon.com/vitahex">Patron</a>. (Link is the original Patron page for VitaHex)</p>
+<p>VitaHex's PayPal option is also available <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=RM8ECMVYMTXGJ&amp;source=url">HERE</a> (Link is the original PayPal link for VitaHex)</p>
 <p><a href="https://twitter.com/VitaHex">VitaHEX Twitter</a></p>
 <p><a href="https://vitahex.weebly.com/">VitaHEX Official Page</a></p>
